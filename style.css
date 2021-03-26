@@ -137,3 +137,19 @@ section .habilidade > * {
     padding: 12px;
     font-size: 14px;
 }
+
+.destaque h2 {
+    width: 100%;
+}
+
+.destaque .categorias button{
+    border: none;
+    padding: 8px;
+    margin: 8px;
+    background-color: cornflowerblue;
+}
+
+.destaque .categorias button:hover{
+    background-color: blue;
+    cursor: pointer;
+}
