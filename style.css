@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    color: white;
+    background: url('ux.jpg');
+    background-size: cover;
+}
+
+header > div {
+    padding: 5rem;
+    background: #00f3;
+}
+
+header h1 {
+    max-width: 600px;
+}
+
+header .box {
+    margin-top: 24px;
+    display: flex;
+}
+
+header input {
+    width: 40%;
+    font-size: 24px;
+}
+
+header button {
+    color: blue;
+    background-color: yellow;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1rem 2rem;
+}
