@@ -15,7 +15,7 @@ header {
 
 header > div {
     padding: 5rem;
-    background: #00f3;
+    background: #00aa;
 }
 
 header h1 {
@@ -39,4 +39,46 @@ header button {
     text-transform: uppercase;
     font-weight: bold;
     padding: 1rem 2rem;
+}
+
+.flex {
+    display: flex;
+}
+
+section {
+    padding: 128px;
+}
+
+section h2 {
+    width: 200px;
+    margin-bottom: 24px;
+}
+
+.encontre {
+    width: 30%;
+}
+
+.items {
+    width: 100%;
+    margin: 16px;
+}
+
+.items > * {
+    width: 100%;
+    margin: 16px;
+    box-shadow: 2px 8px 16px #0005;
+    border-radius: 8px;
+}
+
+.items img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.items > div > div {
+    padding: 16px;
+}
+
+.weak {
+    color: gray;
 }
