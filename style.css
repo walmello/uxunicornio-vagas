@@ -82,3 +82,58 @@ section h2 {
 .weak {
     color: gray;
 }
+
+section.habilidade {
+    background-color: blue;
+    color: white;
+}
+
+section .habilidade > * {
+    background-color: red;
+}
+
+.habilidade button{
+    background-color: yellow;
+    color: blue;
+    margin-top: 32px;
+    padding: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+}
+
+.habilidade .items {
+    align-items: center;
+}
+
+.habilidade .items > * {
+    background-color: white;
+    color: black;
+    padding: 16px;
+}
+
+.habilidade .items {
+    background-color: red;
+}
+
+.topics {
+    color: black;
+}
+
+.topics > div > div {
+    background-color: white;
+    padding: 16px;
+    margin: 8px 16px;
+}
+
+.habilidade > * {
+    width: 100%;
+}
+
+.habilidade .item {
+    background-color: white;
+    color: black;
+    margin: 8px 16px;
+    padding: 12px;
+    font-size: 14px;
+}
